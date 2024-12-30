@@ -13,5 +13,5 @@ redis
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.0
 #docker.elastic.co/kibana/kibana:8.17.0
 #neo4j:5.26.0-community-bullseye
-#arm64v8/nginx
-#arm64v8/openjdk:8
+nginx:8.0.33
+openjdk:8 --platform=linux/arm64
