@@ -15,6 +15,11 @@
 #neo4j:5.26.0-community-bullseye
 #--platform=linux/arm64  nginx
 
---platform=linux/arm64  mysql:8.0.33
---platform=linux/arm64  openjdk:8
---platform=linux/arm64  openjdk:17
+#--platform=linux/arm64  mysql:8.0.33
+#--platform=linux/arm64  openjdk:8
+#--platform=linux/arm64  openjdk:17
+
+php:7.3-apache
+php:8.0-apache
+--platform=linux/arm64  php:7.3-apache
+--platform=linux/arm64  php:8.0-apache
