@@ -19,9 +19,11 @@
 #--platform=linux/arm64  openjdk:8
 #--platform=linux/arm64  openjdk:17
 
-php:7.3-apache
-php:8.0-apache
---platform=linux/arm64  php:7.3-apache
---platform=linux/arm64  php:8.0-apache
+#php:7.3-apache
+#php:8.0-apache
+#--platform=linux/arm64  php:7.3-apache
+#--platform=linux/arm64  php:8.0-apache
 
-gitlab/gitlab-ce
+#gitlab/gitlab-ce
+
+mcr.microsoft.com/java/jdk:8-zulu-windowsservercore-ltsc2019
