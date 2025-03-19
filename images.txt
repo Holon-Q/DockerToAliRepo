@@ -26,4 +26,4 @@
 
 #gitlab/gitlab-ce
 
-mcr.microsoft.com/java/jdk:8-zulu-windowsservercore-ltsc2019
+mcr.microsoft.com/java/jdk:8-zulu-nanoserver-1809
