@@ -26,5 +26,4 @@
 
 #gitlab/gitlab-ce
 
-#mcr.microsoft.com/java/jdk:8-zulu-nanoserver-1809
-nginx:1.26
+--platform=windows/amd64 mcr.microsoft.com/java/jdk:8-zulu-nanoserver-1809
